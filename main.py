@@ -33,7 +33,7 @@ print(output)
 
 for word in output.split(" "):
     board.type(word + " ")
-    time.sleep(0.3)
+    time.sleep(0.2)
 
 
 
