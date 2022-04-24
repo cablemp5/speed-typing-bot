@@ -14,7 +14,7 @@ times_pressed = 0
 top_left = [0,0]
 bottom_right = [0,0]
 
-time.sleep(4)
+time.sleep(2)
 
 #img = pyautogui.screenshot(region=(top_left[0],top_left[1],bottom_right[0]-top_left[0],bottom_right[1]-top_left[1]))
 img = pyautogui.screenshot(region=(234,534,1000,300))

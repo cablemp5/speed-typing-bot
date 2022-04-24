@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e3f698c-e2ea-49a8-9c1f-b52f1d8bee57" name="Default Changelist" comment="Edited sleep time" />
+    <list default="true" id="4e3f698c-e2ea-49a8-9c1f-b52f1d8bee57" name="Default Changelist" comment="Edited sleep time">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
