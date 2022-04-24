@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650766967319</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove README.md">
+      <created>1650769313688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650769313688</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,7 +92,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -100,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edited sleep time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited sleep time" />
+    <MESSAGE value="Remove README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove README.md" />
   </component>
 </project>
