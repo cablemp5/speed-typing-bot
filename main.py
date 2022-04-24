@@ -16,10 +16,13 @@ bottom_right = [0,0]
 
 time.sleep(2)
 
-#img = pyautogui.screenshot(region=(top_left[0],top_left[1],bottom_right[0]-top_left[0],bottom_right[1]-top_left[1]))
-img = pyautogui.screenshot(region=(234,534,1000,300))
+coords = getcoords.coords(2);
 
-img.show()
+#img = pyautogui.screenshot(region=(top_left[0],top_left[1],bottom_right[0]-top_left[0],bottom_right[1]-top_left[1]))
+
+img = pyautogui.screenshot(region=(coords[0],coords[1],coords[2]-coords[0],coords[3]-coords[1]))
+
+#img.show()
 
 output = pytesseract.image_to_string(img)
 
@@ -28,15 +31,11 @@ output = output.replace("|","I")
 output = output.replace("{","")
 
 output = " ".join(output.split())
-
 print(output)
 
 for word in output.split(" "):
     board.type(word + " ")
-    time.sleep(0.2)
-
-
-
+    time.sleep(0.3)
 
 
 
